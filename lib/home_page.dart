@@ -82,14 +82,13 @@ class _HomePageState extends State<HomePage> {
                 controller: t1,
                 keyboardType: TextInputType.number,
                 decoration: new InputDecoration(
-                  hintText: "Enter Number 1",
+                  labelText: "Enter Number one",
                   focusedBorder: OutlineInputBorder(
                     borderSide:
                         BorderSide(color: Colors.blueAccent, width: 3.0),
                   ),
                   enabledBorder: OutlineInputBorder(
-                    borderSide:
-                        BorderSide(color: Colors.greenAccent, width: 3.0),
+                    borderSide: BorderSide(color: Colors.green, width: 3.0),
                   ),
                 ),
               ),
@@ -103,14 +102,13 @@ class _HomePageState extends State<HomePage> {
                 controller: t2,
                 keyboardType: TextInputType.number,
                 decoration: new InputDecoration(
-                  hintText: "Enter Number 2",
+                  labelText: "Enter Number two",
                   focusedBorder: OutlineInputBorder(
                     borderSide:
                         BorderSide(color: Colors.blueAccent, width: 3.0),
                   ),
                   enabledBorder: OutlineInputBorder(
-                    borderSide:
-                        BorderSide(color: Colors.greenAccent, width: 3.0),
+                    borderSide: BorderSide(color: Colors.green, width: 3.0),
                   ),
                 ),
               ),
