@@ -122,13 +122,25 @@ class _HomePageState extends State<HomePage> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 new MaterialButton(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(5.0),
+                  ),
                   onPressed: doAddition,
-                  child: Text("+"),
+                  child: Text(
+                    "+",
+                    style: TextStyle(fontSize: 25),
+                  ),
                   color: Colors.greenAccent,
                 ),
                 new MaterialButton(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(5.0),
+                  ),
                   onPressed: doSubstration,
-                  child: Text("-"),
+                  child: Text(
+                    "-",
+                    style: TextStyle(fontSize: 25),
+                  ),
                   color: Colors.greenAccent,
                 ),
               ],
@@ -137,13 +149,25 @@ class _HomePageState extends State<HomePage> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 new MaterialButton(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(5.0),
+                  ),
                   onPressed: doMultiplication,
-                  child: Text("*"),
+                  child: Text(
+                    "*",
+                    style: TextStyle(fontSize: 25),
+                  ),
                   color: Colors.greenAccent,
                 ),
                 new MaterialButton(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(5.0),
+                  ),
                   onPressed: doDivision,
-                  child: Text("/"),
+                  child: Text(
+                    "/",
+                    style: TextStyle(fontSize: 25),
+                  ),
                   color: Colors.greenAccent,
                 ),
               ],
@@ -155,8 +179,14 @@ class _HomePageState extends State<HomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 new MaterialButton(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(5.0),
+                  ),
                   onPressed: doClear,
-                  child: Text("Clear"),
+                  child: Text(
+                    "Clear",
+                    style: TextStyle(fontSize: 18),
+                  ),
                   color: Colors.greenAccent,
                 ),
               ],
