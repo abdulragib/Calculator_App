@@ -62,7 +62,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: new Container(
         color: Colors.black12,
-        padding: const EdgeInsets.only(left: 20.0, right: 20.0, top: 10),
+        padding: const EdgeInsets.only(left: 40.0, right: 40.0, top: 10),
         child: new Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
