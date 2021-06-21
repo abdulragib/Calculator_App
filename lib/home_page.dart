@@ -56,12 +56,13 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
+      //resizeToAvoidBottomInset: false,
       appBar: new AppBar(
         title: new Text("Calculator"),
       ),
       body: new Container(
         color: Colors.black12,
-        padding: const EdgeInsets.all(40.0),
+        padding: const EdgeInsets.only(left: 20.0, right: 20.0, top: 10),
         child: new Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
