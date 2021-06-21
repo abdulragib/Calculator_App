@@ -60,6 +60,7 @@ class _HomePageState extends State<HomePage> {
         title: new Text("Calculator"),
       ),
       body: new Container(
+        color: Colors.black12,
         padding: const EdgeInsets.all(40.0),
         child: new Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -75,32 +76,42 @@ class _HomePageState extends State<HomePage> {
             SizedBox(
               height: 20,
             ),
-            new TextField(
-              controller: t1,
-              keyboardType: TextInputType.number,
-              decoration: new InputDecoration(
-                hintText: "Enter Number 1",
-                focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.blueAccent, width: 1.5),
-                ),
-                enabledBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.black, width: 1.5),
+            Container(
+              color: Colors.white30,
+              child: new TextField(
+                controller: t1,
+                keyboardType: TextInputType.number,
+                decoration: new InputDecoration(
+                  hintText: "Enter Number 1",
+                  focusedBorder: OutlineInputBorder(
+                    borderSide:
+                        BorderSide(color: Colors.blueAccent, width: 3.0),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide:
+                        BorderSide(color: Colors.greenAccent, width: 3.0),
+                  ),
                 ),
               ),
             ),
             SizedBox(
               height: 20,
             ),
-            new TextField(
-              controller: t2,
-              keyboardType: TextInputType.number,
-              decoration: new InputDecoration(
-                hintText: "Enter Number 2",
-                focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.blueAccent, width: 1.5),
-                ),
-                enabledBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.black, width: 1.5),
+            Container(
+              color: Colors.white30,
+              child: new TextField(
+                controller: t2,
+                keyboardType: TextInputType.number,
+                decoration: new InputDecoration(
+                  hintText: "Enter Number 2",
+                  focusedBorder: OutlineInputBorder(
+                    borderSide:
+                        BorderSide(color: Colors.blueAccent, width: 3.0),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide:
+                        BorderSide(color: Colors.greenAccent, width: 3.0),
+                  ),
                 ),
               ),
             ),
